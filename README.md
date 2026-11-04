@@ -1,0 +1,1 @@
+This level introduces an FPGA-oriented synchronous memory coding style. `data_out` updates only for an accepted read. The example still uses a registered output; check the inferred memory primitive and latency in Vivado synthesis rather than assuming BRAM inference.
